@@ -1,10 +1,25 @@
-## v1.8.6
+## v1.8.7
 
 ### Bug Fixes
 
 ### Features
 
 ### Other
+
+## v1.8.6 [2020-08-26]
+
+### Bug Fixes
+
+1. [#5554](https://github.com/influxdata/chronograf/pull/5554): Escape tag values in query builder.
+1. [#5551](https://github.com/influxdata/chronograf/pull/5551): Sort namespaces by database and retention policy.
+1. [#5556](https://github.com/influxdata/chronograf/pull/5556): Make MySQL protoboard more useful by using derivatives for counter values.
+1. [#5536](https://github.com/influxdata/chronograf/pull/5536): Add HTTP security headers.
+1. [#5553](https://github.com/influxdata/chronograf/pull/5553): Show all query results in table view.
+1. [#5555](https://github.com/influxdata/chronograf/pull/5555): Show also boolean field/tag values in tickscript editor logs.
+
+### Other
+
+1. [#5560](https://github.com/influxdata/chronograf/pull/5560): Upgrade Dockerfile to use Alpine 3.12.
 
 ## v1.8.5 [2020-07-08]
 
